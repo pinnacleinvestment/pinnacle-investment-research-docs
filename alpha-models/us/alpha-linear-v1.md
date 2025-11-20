@@ -1,14 +1,19 @@
 # Pinnacle US Alpha Linear V1
 
 ## 1. Metadata
-Type: Alpha Model  
-Market: US  
-Version: v1.0  
-Owner: Quant Team  
-Author: Ricky  
-Last Updated: 2025-11-19  
-Related Model: 
-Code: https://github.com/pinnacleinvestment/us-production/tree/1a2b7aac27504fc1ccb4320abe7d53da855feca8/src/usprod/model/alphalinearv1
+
+| Field | Value |
+|-------|--------|
+| **Type** | Alpha Model |
+| **Market** | US |
+| **Version** | v1.0 |
+| **Owner** | Quant Team |
+| **Author** | Ricky The Ising |
+| **Last Updated** | 19 Nov 2025 |
+| **Production Start** | 1 Feb 2024 |
+| **Production End** | 31 Jan 2025 |
+| **Related Model** | |
+| **Code** | [Link to Code](https://github.com/pinnacleinvestment/us-production/tree/1a2b7aac27504fc1ccb4320abe7d53da855feca8/src/usprod/model/alphalinearv1) |
 
 ## 2. Objective
 

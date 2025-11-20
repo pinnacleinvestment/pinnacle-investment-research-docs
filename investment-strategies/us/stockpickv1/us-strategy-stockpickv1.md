@@ -10,8 +10,8 @@
 | **Owner** | Quant Team |
 | **Author** | Ricky The Ising |
 | **Last Updated** | 19 Nov 2025 |
-| **Production Start** | 1 Aug 2025 |
-| **Production End** | — |
+| **Production Start** | 1 Feb 2024 |
+| **Production End** | 31 Jan 2025 |
 | **Related Model** | [US Alpha Model v1](../../../alpha-models/us/alpha-linear-v1.md)  |
 | **Code** | [Link to Code](https://github.com/pinnacleinvestment/us-production/tree/1a2b7aac27504fc1ccb4320abe7d53da855feca8/src/usprod/strategy/stockpickv1) |
 
