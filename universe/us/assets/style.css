@@ -1,0 +1,37 @@
+body {
+  font-family: "Computer Modern Serif";
+  font-size: 12pt;
+  line-height: 1.5;
+  margin: 1.5cm;
+}
+
+/* H1 - Title */
+h1 {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #146699; /* deep blue for title */
+  border-bottom: 3px solid #b3c6ff;
+  padding-bottom: 6px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Subheader (##) */
+h2 {
+  font-size: 16pt !important;
+  font-weight: bold !important;
+  color: #007acc !important; /* biru muda */
+  margin-top: 30px !important;
+  margin-bottom: 10px !important;
+  border-bottom: 2px solid #d0e3ff !important;
+  padding-bottom: 5px !important;
+}
+
+/* Sub-subheader (###) */
+h3 {
+  font-size: 14pt !important;
+  font-weight: bold !important;
+  color: #3399ff !important; /* biru muda */
+  margin-top: 20px !important;
+  margin-bottom: 8px !important;
+}
