@@ -45,7 +45,7 @@ Let:
 - $M_{\text{size}}$: size exposures
 - $w_{\text{prev}}$: previous portfolio weights
 - $\lambda_{\text{TO}}$: turnover penalty (set to 0.2)
-- $\text{sector\_alloc}$: target sector allocation from sector momentum
+- $\text{SectorAllocation}$: target sector allocation from sector momentum
 
 ### 4.1. Optimization Objective
 
@@ -79,26 +79,26 @@ $$ M_{\text{size}}^T (w-b) = 0 $$
 
 Let VIX rank = $r_{\text{VIX}}$.
 
-If $r_{\text{VIX}} < 0.8$, then $\text{beta\_target} = 0$.  
+If $r_{\text{VIX}} < 0.8$, then $\text{BetaTarget} = 0$.  
 
 Else:
 
-$$\text{beta\_target} = -2 + 2.5r_{\text{VIX}}$$
+$$\text{BetaTarget} = -2 + 2.5r_{\text{VIX}}$$
 
 Interpretation: If VIX rank is 0.8 or below, beta target is 0. If VIX rank is 1, then beta target is 0.5. Beta target scales linearly when VIX rank is between 0.8 to 1.
 
 Constraint:
 
-$$M_{\beta} (w-b) = \text{beta\_target}$$
+$$M_{\beta} (w-b) = \text{BetaTarget}$$
 
 ### 4.2.5. Sector constraints
 
 $$
-\sum_{i \in S_j} w_i - \text{sector-allocation}\_j \leq 0.02 \text{ for each sector }j
+\sum_{i \in S_j} w_i - \text{SectorAllocation}_j \leq 0.02 \text{ for each sector }j
 $$
 
 $$
-\sum_{i \in S_j} w_i - \text{sector-allocation}\_j \geq -0.02 \text{ for each sector }j
+\sum_{i \in S_j} w_i - \text{SectorAllocation}_j \geq -0.02 \text{ for each sector }j
 $$
 
 ## 4.3. Sector Momentum Strategy
@@ -125,7 +125,7 @@ $$f(z_j) = 1+z_j, \text{ if } z_j > 0 \text{ and } \frac{1}{1-z_j} \text{ if } z
 
 5. **Compute the target allocation for sector $j$**: The target allocation for each sector $j$ is given by:
 
-$$\text{sector-allocation}\_j = \dfrac{f(z_j) \times b_j}{\sum_{i} f(z_i) b_i}$$
+$$\text{SectorAllocation}\_j = \dfrac{f(z_j) \times b_j}{\sum_{i} f(z_i) b_i}$$
 
 where $b_i$ represents the total weight of sector $i$ in the benchmark.
 
