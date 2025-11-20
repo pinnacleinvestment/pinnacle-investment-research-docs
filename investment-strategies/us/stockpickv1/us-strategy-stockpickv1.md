@@ -7,7 +7,7 @@ Version: v1.0
 Owner: Quant Team  
 Author: Ricky  
 Last Updated: 2025-11-19  
-Related Model: [US Alpha Model v1](../../../alpha-models/us/alpha-model-v1.md)  
+Related Model: [US Alpha Model v1](../../../alpha-models/us/alpha-linear-v1.md)  
 Code: https://github.com/pinnacleinvestment/us-production/tree/1a2b7aac27504fc1ccb4320abe7d53da855feca8/src/usprod/strategy/stockpickv1
 
 
