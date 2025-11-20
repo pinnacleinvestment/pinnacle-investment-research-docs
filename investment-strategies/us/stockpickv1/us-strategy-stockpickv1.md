@@ -1,14 +1,19 @@
 # Pinnacle US Stock Picking Strategy
 
 ## 1. Metadata
-Type: Strategy  
-Market: US  
-Version: v1.0  
-Owner: Quant Team  
-Author: Ricky  
-Last Updated: 2025-11-19  
-Related Model: [US Alpha Model v1](../../../alpha-models/us/alpha-linear-v1.md)  
-Code: https://github.com/pinnacleinvestment/us-production/tree/1a2b7aac27504fc1ccb4320abe7d53da855feca8/src/usprod/strategy/stockpickv1
+
+| Field | Value |
+|-------|--------|
+| **Type** | Strategy |
+| **Market** | US |
+| **Version** | v1.0 |
+| **Owner** | Quant Team |
+| **Author** | Ricky The Ising |
+| **Last Updated** | 19 Nov 2025 |
+| **Production Start** | 1 Aug 2025 |
+| **Production End** | — |
+| **Related Model** | [US Alpha Model v1](../../../alpha-models/us/alpha-linear-v1.md)  |
+| **Code** | [Link to Code](https://github.com/pinnacleinvestment/us-production/tree/1a2b7aac27504fc1ccb4320abe7d53da855feca8/src/usprod/strategy/stockpickv1) |
 
 
 ## 2. Objective
