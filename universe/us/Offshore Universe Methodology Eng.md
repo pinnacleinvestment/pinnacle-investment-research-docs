@@ -37,7 +37,6 @@ Stocks eligible for inclusion in the investment universe are:
 ### 3.2 ETFs
 ETFs eligible for inclusion in the investment universe must meet both of the following criteria:
 1. **Assets Under Management (AUM)** of at least **USD 500 million**.
-2. **Daily liquidity** (average daily trading value) of at least **USD 5 million** over the past three months.
 
 ### 3.3 Dynamic Nature of the ETF List
 - The ETF universe is **not static**, but **will expand and adjust** in line with the team’s evolving strategies and investment needs.
