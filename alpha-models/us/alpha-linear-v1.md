@@ -1,4 +1,4 @@
-# Pinnacle US Alpha Model v1
+# Pinnacle US Alpha Linear V1
 
 ## 1. Metadata
 Type: Alpha Model  
@@ -12,7 +12,7 @@ Code: https://github.com/pinnacleinvestment/us-production/tree/1a2b7aac27504fc1c
 
 ## 2. Objective
 
-The objective of **US Alpha Model v1** is to compute the **expected alpha** for each stock in the **S&P 500 universe**. The model generates by value, quality, and momentum factors, which can then be **ranked or sorted** to guide portfolio construction and stock selection.
+The objective of **US Alpha Linear V1** is to compute the **expected alpha** for each stock in the **S&P 500 universe**. The model generates by value, quality, and momentum factors, which can then be **ranked or sorted** to guide portfolio construction and stock selection.
 
 ## 3. Model
 
@@ -113,4 +113,4 @@ $$
 $$
 
 ## 4. Revision History
-- **v1.0 (2025-11-19)**: Initial documentation for US Alpha Model v1.
+- **v1.0 (2025-11-19)**: Initial documentation for US Alpha Linear V1.
